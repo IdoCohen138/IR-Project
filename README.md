@@ -34,3 +34,5 @@ To access the inverted index file, first the "index.pkl" should be read with pic
 
 ### Testing&Resualts
   This folder contains the results of the testing of the machine.
+### Inverted Index
+  This folder contains needed files to create all the big indexes (on the whole corpus), which are finally used to build the engine.
