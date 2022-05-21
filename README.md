@@ -37,4 +37,7 @@ To access the inverted index file, first the "index.pkl" should be read with pic
 ### Inverted Index
   This folder contains needed files to create all the big indexes (on the whole corpus), which are finally used to build the engine.
 ### search_frontend.py
-This file contains the flask app which recieves http requests for queries, and returns the results for them.
+  This file contains the flask app which recieves http requests for queries, and returns the results for them.
+### IR_big_index.py
+  This file contains the functonlty of read the posting list etc, calculate BM25 and all the fuction Search_frontend use.
+
